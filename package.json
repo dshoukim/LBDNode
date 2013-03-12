@@ -1,0 +1,46 @@
+{
+ 	"name": "LBDNode",
+
+	"version": "0.0.1",
+	
+	"private": true,
+	
+	"description": "A 3D Social Media Experience",
+	
+	"author": {
+		"name": "Dan Shoukimas",
+		"email": "Dan.Shoukimas@gmail.com"
+	},
+	
+	"website":{
+		"url": "littleboatdreams.com"
+	},
+	
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dshoukim/LBD-Node"
+	},
+	
+	"scripts" : {
+		"start": "node app"
+	}, 
+	
+	"dependencies" : {
+		"express": "3.0.5",
+		"jade": "*",
+		"stylus": "0.31.0",
+		"mongodb": "*",
+		"mongoose": "*",
+		"three": "*",
+		"three-math": "*",
+		"colors": "*",
+		"moment": "1.7.2",
+		"emailjs":"0.3.3"
+  	},
+
+	"engines" : {
+		"node":"*",
+		"npm":"*"
+	}
+	
+}
